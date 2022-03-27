@@ -142,3 +142,18 @@ color: white;
 font-weight: bold;
 padding: 5%;
 }
+
+.smallpage-bg{
+width:100%;
+background-image: url(images/page_header_bg.jpg) center center;
+background-size: cover;
+height:40vh;
+}
+
+.smallpage-title{
+font-siz: 4em;
+color:white;
+font-weight: 800;
+margin-top: 9%;
+padding-bottom: 5%;
+}
