@@ -102,7 +102,6 @@ background-color: #fdfdfe;
 font-size: 1.4em;
 font-family: 'Raleway', sans-serif;
 font-weight: 800;
-color: #ffffff;
 padding-top: 20px;
 margin-bottom: 0px;
 
@@ -143,15 +142,16 @@ font-weight: bold;
 padding: 5%;
 }
 
-.smallpage-bg{
-width:100%;
-background-image: url(images/page_header_bg.jpg) center center;
-background-size: cover;
-height:40vh;
-}
+header.container-fluid.smallpage-bg{
+    width:100%;
+    background-size: cover;
+    height:40vh;
+    background-image: url("images/page_header_bg.jpg");
+    background-position: center center;
+    }
 
 .smallpage-title{
-font-siz: 4em;
+font-size: 4em;
 color:white;
 font-weight: 800;
 margin-top: 9%;
